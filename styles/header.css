@@ -1,5 +1,6 @@
 header{
     background-color: var(--primary-color);
+    padding: 24px 0;
 }
 
 header nav{
@@ -15,4 +16,8 @@ header nav section:nth-child(2){
 
 header a{
     color: var(--white);
+}
+
+header a:hover{
+    border: 1px solid #000;
 }
