@@ -1,7 +1,8 @@
 let productoss = [
-  { id: 1, nombre: "algo 1", precio: 5000 },
+  { id: 1, nombre: "algo 11111", precio: 5000 },
   { id: 2, nombre: "algo 2", precio: 6000 },
-  { id: 3, nombre: "algo 3", precio: 7000 }
+  { id: 3, nombre: "algo 3", precio: 7000 },
+  { id: 4, nombre: "algo 4", precio: 7000 }
 ];
 
 function mostrarProductos() {

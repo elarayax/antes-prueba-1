@@ -9,3 +9,16 @@
     align-items: center;
     gap: 20px;
 }
+
+.calugas-ajsutadas{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+@media(max-width: 1200px){
+    .calugas-ajsutadas{
+        width: 90vw;
+    }
+}
