@@ -14,6 +14,11 @@ h1,h2,p,a{
     padding: 0;
 }
 
+h2{
+    font-size: clamp(1.75rem, 1.564rem + 0.784vw, 2.25rem);
+    line-height: clamp(2rem, 1.814rem + 0.784vw, 2.5rem);
+}
+
 a{
     text-decoration: none;
     font-size: clamp(1rem, 0.907rem + 0.392vw, 1.25rem);
@@ -26,4 +31,8 @@ main{
     width: 100%;
     align-items: center;
     min-height: 90vh;
+}
+
+.text-center{
+    text-align: center;
 }
